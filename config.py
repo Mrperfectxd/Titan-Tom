@@ -11,16 +11,16 @@ API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
-OWNER_ID = int(getenv("OWNER_ID", 7044783841))
-OWNER_USERNAME = getenv("OWNER_USERNAME", "CertifiedCoder")
-BOT_USERNAME = getenv("BOT_USERNAME", "AnnieTheRobot")
-BOT_NAME = getenv("BOT_NAME", "˹𝐀ɴɴɪᴇ ✘ 𝙼ᴜsɪᴄ˼ ♪")
-ASSUSERNAME = getenv("ASSUSERNAME", "musicxannie")
-EVALOP = list(map(int, getenv("EVALOP", "6797202080").split()))
+OWNER_ID = int(getenv("OWNER_ID", 7923226542))
+OWNER_USERNAME = getenv("OWNER_USERNAME", "MIKEY_ONI")
+BOT_USERNAME = getenv("BOT_USERNAME", "x4Mikey_Music_bot")
+BOT_NAME = getenv("BOT_NAME", "Mɪᴋᴇʏ ™ ᴍᴜsɪᴄ ʙᴏᴛ")
+ASSUSERNAME = getenv("ASSUSERNAME", "Mɪᴋᴇʏ ™ Assɪsᴛᴀɴᴛ")
+EVALOP = list(map(int, getenv("EVALOP", "7763769567").split()))
 
 # ───── Mongo & Logging ───── #
-MONGO_DB_URI = getenv("MONGO_DB_URI")
-LOGGER_ID = int(getenv("LOGGER_ID", -1002014167331))
+MONGO_DB_URI = getenv("mongodb+srv://shigarakisan:demnkin@cluster0.cxt4iov.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+LOGGER_ID = int(getenv("LOGGER_ID", -1002650359496))
 
 # ───── Limits and Durations ───── #
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
@@ -45,8 +45,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN")
 
 # ───── Support & Community ───── #
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/CertifiedNetwork")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/CertifiedDiscussion")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/solo_leveling_hindi4u")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/mikey_bot_support")
 
 # ───── Assistant Auto Leave ───── #
 AUTO_LEAVING_ASSISTANT = False
@@ -73,9 +73,9 @@ PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "2500"))
 # ───── Bot Media Assets ───── #
 
 START_VIDS = [
-    "https://telegra.ph/file/9b7e1b820c72a14d90be7.mp4",
-    "https://telegra.ph/file/72f349b1386d6d9374a38.mp4",
-    "https://telegra.ph/file/a4d90b0cb759b67d68644.mp4"
+    "https://files.catbox.moe/jk5col.mp4",
+    "https://files.catbox.moe/lyx0n0.mp4",
+    "https://files.catbox.moe/yum2zl.mp4"
 ]
 
 STICKERS = [
