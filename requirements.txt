@@ -22,8 +22,8 @@ numpy
 opencv-python
 pillow==11.2.1
 psutil
-ntgcalls==2.0.5
-py-tgcalls==2.2.3
+ntgcalls==2.0.4
+py-tgcalls==2.2.5
 pycryptodome
 pydub
 pyfiglet
