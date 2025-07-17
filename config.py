@@ -11,16 +11,16 @@ API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
-OWNER_ID = int(getenv("OWNER_ID", 7044783841))
-OWNER_USERNAME = getenv("OWNER_USERNAME", "CertifiedCoder")
-BOT_USERNAME = getenv("BOT_USERNAME", "AnnieXRobot")
-BOT_NAME = getenv("BOT_NAME", "˹𝐀ɴɴɪᴇ ✘ 𝙼ᴜsɪᴄ˼ ♪")
-ASSUSERNAME = getenv("ASSUSERNAME", "musicxannie")
+OWNER_ID = int(getenv("OWNER_ID", 5555422614))
+OWNER_USERNAME = getenv("OWNER_USERNAME", "MrPerfectXd")
+BOT_USERNAME = getenv("BOT_USERNAME", "TomXJerry_Bot")
+BOT_NAME = getenv("BOT_NAME", "˹● 𝑻𝑶𝑴 ✘ 𝑱𝑬𝑹𝑹𝒀 𝑴𝑼𝑺𝑰𝑪 ●˼™ 🫧")
+ASSUSERNAME = getenv("ASSUSERNAME", "TomXJerry0")
 EVALOP = list(map(int, getenv("EVALOP", "6797202080").split()))
 
 # ───── Mongo & Logging ───── #
 MONGO_DB_URI = getenv("MONGO_DB_URI")
-LOGGER_ID = int(getenv("LOGGER_ID", -1002014167331))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002645692318))
 
 # ───── Limits and Durations ───── #
 RESTART_INTERVAL = int(getenv("RESTART_INTERVAL", 86400))  # default 24 hours
@@ -41,13 +41,13 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 # ───── Git & Updates ───── #
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/CertifiedCoders/AnnieXMusic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Mrperfectxd/Titan-Tom")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN")
 
 # ───── Support & Community ───── #
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/CertifiedNetwork")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/CertifiedDiscussion")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TitanNetwrk")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Telugu_Grpz")
 
 # ───── Assistant Auto Leave ───── #
 AUTO_LEAVING_ASSISTANT = False
@@ -74,24 +74,24 @@ PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "2500"))
 # ───── Bot Media Assets ───── #
 
 START_VIDS = [
-    "https://telegra.ph/file/9b7e1b820c72a14d90be7.mp4",
-    "https://telegra.ph/file/72f349b1386d6d9374a38.mp4",
-    "https://telegra.ph/file/a4d90b0cb759b67d68644.mp4"
+    "https://telegra.ph/file/c316aa782ab03f45ba9c2.jpg",
+    "https://telegra.ph/file/c316aa782ab03f45ba9c2.jpg",
+    "https://telegra.ph/file/c316aa782ab03f45ba9c2.jpg"
 ]
 
 STICKERS = [
     "CAACAgUAAx0Cd6nKUAACASBl_rnalOle6g7qS-ry-aZ1ZpVEnwACgg8AAizLEFfI5wfykoCR4h4E",
     "CAACAgUAAx0Cd6nKUAACATJl_rsEJOsaaPSYGhU7bo7iEwL8AAPMDgACu2PYV8Vb8aT4_HUPHgQ"
 ]
-HELP_IMG_URL = "https://files.catbox.moe/yg2vky.jpg"
-PING_VID_URL = "https://files.catbox.moe/3ivvgo.mp4"
-PLAYLIST_IMG_URL = "https://telegra.ph/file/94e9eca3b0ec6e2dc6cd5.png"
-STATS_VID_URL = "https://telegra.ph/file/e2ab6106ace2e95862372.mp4"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/mlztag.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/tiss2b.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/1d3da7.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/zhymxl.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/veykzq.jpg"
+HELP_IMG_URL = "https://telegra.ph/file/c316aa782ab03f45ba9c2.jpg"
+PING_VID_URL = "https://telegra.ph/file/2879947fdf1397639a867.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/64dacee61bdf2365497ef.jpg"
+STATS_VID_URL = "https://telegra.ph/file/b9232c883087a73444b07.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/2879947fdf1397639a867.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/2879947fdf1397639a867.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/2879947fdf1397639a867.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/file/2879947fdf1397639a867.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/2879947fdf1397639a867.jpg"
 SPOTIFY_ARTIST_IMG_URL = SPOTIFY_ALBUM_IMG_URL = SPOTIFY_PLAYLIST_IMG_URL = YOUTUBE_IMG_URL
 
 # ───── Utility & Functional ───── #
