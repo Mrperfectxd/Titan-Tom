@@ -1,14 +1,1 @@
-FROM nikolaik/python-nodejs:python3.10-nodejs19
-
-RUN apt-get update \
-    && apt-get install -y --no-install-recommends ffmpeg \
-    && apt-get clean \
-    && rm -rf /var/lib/apt/lists/*
-
-WORKDIR /app
-COPY . .
-
-RUN pip3 install --no-cache-dir --upgrade pip \
-    && pip3 install --no-cache-dir --upgrade -r requirements.txt
-
-CMD bash start
+FROM nikolaik/python-nodejs:python3.10-nodejs20# Install ffmpeg and clean upRUN apt-get update \ && apt-get install -y --no-install-recommends ffmpeg \ && apt-get clean \ && rm -rf /var/lib/apt/lists/*# Set working directoryWORKDIR /app# Copy app codeCOPY . .# Install Python dependenciesRUN pip3 install --no-cache-dir --upgrade pip \ && pip3 install --no-cache-dir --upgrade -r requirements.txt# Start the appCMD ["bash", "start"]
