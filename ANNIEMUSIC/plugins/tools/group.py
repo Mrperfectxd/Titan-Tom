@@ -10,6 +10,10 @@ async def on_voice_chat_started(_, message: Message):
     await message.reply_text("🎙 **ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ʜᴀs sᴛᴀʀᴛᴇᴅ!**")
 
 
+@app.on_message(filters.video_chat_ended)
+async def on_voice_chat_ended(_, message: Message):
+    await message.reply_text("🔕 **ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴇɴᴅᴇᴅ.**")
+
 
 
 @app.on_message(filters.command("leavegroup") & filters.user(OWNER_ID))
