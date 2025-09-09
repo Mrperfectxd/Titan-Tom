@@ -14,7 +14,7 @@ gpytranslate
 gtts
 heroku3
 httpx[http2]==0.28.1
-kurigram==2.2.6
+kurigram==2.2.10
 lexica-api
 motor
 nekosbest
@@ -22,8 +22,8 @@ numpy
 opencv-python
 pillow==11.3.0
 psutil
-ntgcalls==2.0.5
-py-tgcalls==2.2.5
+ntgcalls==2.0.6
+py-tgcalls==2.2.8
 pycryptodome
 pydub
 pyfiglet
@@ -40,5 +40,5 @@ telegraph
 tgcrypto
 unidecode
 wget
-yt-dlp==2025.6.30
-git+https://github.com/CertifiedCoders/youtube-search-python.git@v1.6.6.post1
+yt-dlp==2025.9.5
+git+https://github.com/CertifiedCoders/youtube-search-python
