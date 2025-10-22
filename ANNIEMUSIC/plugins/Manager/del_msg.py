@@ -13,7 +13,7 @@ import asyncio
 from pyrogram import filters
 from pyrogram.types import (
     InlineKeyboardMarkup, InlineKeyboardButton,
-    CallbackQuery, Message, ChatInviteLink, ChatPrivileges
+    CallbackQuery, Message, ChatInviteLink, ChatAdministratorRights
 )
 from pyrogram.enums import ChatMemberStatus
 from pyrogram.errors import (
@@ -112,7 +112,7 @@ async def deleteall_callback(client, callback: CallbackQuery):
     try:
         await client.promote_chat_member(
             chat_id, ass_id,
-            privileges=ChatPrivileges(can_delete_messages=True)
+            privileges=ChatAdministratorRights(can_delete_messages=True)
         )
     except ChatAdminRequired:
         return await callback.message.edit(
@@ -169,7 +169,7 @@ async def _fallback_batch_delete(assistant, callback: CallbackQuery):
     # demote and remove assistant
     ass_id = (await assistant.get_me()).id
     try:
-        await assistant.promote_chat_member(chat_id, ass_id, privileges=ChatPrivileges())
+        await assistant.promote_chat_member(chat_id, ass_id, privileges=ChatAdministratorRights())
         await assistant.leave_chat(chat_id)
     except Exception:
         pass
