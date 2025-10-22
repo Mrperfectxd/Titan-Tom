@@ -4,7 +4,7 @@ import random
 import requests
 from ANNIEMUSIC import app
 
-SUPPORT_CHAT = "CERTIFIEDCODERS"
+SUPPORT_CHAT = "CERTIFIEDDEVLOPER"
 SUPPORT_BTN = InlineKeyboardMarkup(
     [[InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}")]]
 )
