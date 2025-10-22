@@ -6,7 +6,7 @@ from typing import Dict, List, Optional, Tuple, Union
 import yt_dlp
 from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
-from youtubesearchpython.__future__ import VideosSearch
+from py_yt import VideosSearch
 
 from ANNIEMUSIC.utils.database import is_on_off
 from ANNIEMUSIC.utils.downloader import yt_dlp_download, download_audio_concurrent
