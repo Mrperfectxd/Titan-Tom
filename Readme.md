@@ -61,7 +61,7 @@ Stay updated with the latest features and improvements to Tom X Music Bot:
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 </p>
 
-- <b> _sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [TeamYukki](https://github.com/TeamYukki) ғᴏʀ [AnnieXMusic](https://github.com/CertifiedCoders/AnnieXMusic)_ </b>
+- <b> _sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [TeamYukki](https://github.com/TeamYukki) ғᴏʀ [AnnieXMusic](https://github.com/CertifiedDevelopers/AnnieXMusic)_ </b>
 
 
 - <b> _Made with Passion by [Titan Coders](https://github.com/Mrperfectxd/Titan-Tom)_ </b>
